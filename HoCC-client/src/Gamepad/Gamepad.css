@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  width: 200px; /* adjust as needed */
+  height: 200px;
+  margin: 0 auto;
+}
+.gamepad {
+    position: absolute;
+  width:100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.button {
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.active-button{
+    filter: invert(24%) sepia(93%) saturate(4882%) hue-rotate(182deg) brightness(90%) contrast(90%);
+}
